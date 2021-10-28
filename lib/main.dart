@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Google Maps Demo',
       initialBinding: InitBinding(),
-      home: App(),
+      home: Home(),
     );
   }
 }
