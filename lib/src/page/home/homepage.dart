@@ -1,3 +1,4 @@
+import 'package:dwaf_hobbysir/src/page/list/list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -24,7 +25,7 @@ class HomePage extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
-                      // Get.to(() => HobbyListPage(hobbyIndex: index));
+                      Get.to(() => ListPage());
                     },
                     child: Container(
                       padding: EdgeInsets.all(10),
